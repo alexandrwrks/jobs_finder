@@ -1,0 +1,1 @@
+# Parsers of developer vacancies from Talanto

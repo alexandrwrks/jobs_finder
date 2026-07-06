@@ -1,0 +1,37 @@
+{
+    "job": {
+        "title": "Python Developer Middle",
+        "description": "<p>PaySol — универсальная платежная система.</p><p><b>Требования:</b></p><ul><li>Опыт в Backend разработке от 5 лет</li><li>Знания Python на высоком уровне</li><li>Опыт работы с микросервисной архитектурой</li><li>Опыт с Django, FastAPI, Celery, Postgres, ClickHouse, asyncio, RabbitMQ, Kafka, Redis</li><li>Опыт работы с Telethon и Telegram API</li><li>Хорошее владение Docker, все проекты контейнизированы</li><li>Опыт работы с GitLab и CI/CD</li></ul><p><b>Условия:</b> удалённая работа</p>",
+        "url": "https://talanto.work/jobs/588e2fa1-16a7-473c-a234-15b2c90861f3",
+        "type_of_work": "FULL_TIME",
+        "location_work": "TELECOMMUTE",
+        "busyness": "Worldwide",
+        "level": null
+    },
+    "company": {
+        "name": "PaySol"
+    },
+    "salary": {
+        "currency": "RUB",
+        "min_value": 300000,
+        "max_value": 400000,
+        "unit": "MONTH"
+    },
+    "skills": [
+        "PostgreSQL",
+        "Docker",
+        "Django",
+        "Python",
+        "CI/CD",
+        "RabbitMQ",
+        "Redis",
+        "Python Developer",
+        "asyncio",
+        "Backend",
+        "Celery",
+        "ClickHouse",
+        "FastAPI",
+        "GitLab",
+        "Telethon"
+    ]
+}
