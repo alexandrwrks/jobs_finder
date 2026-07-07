@@ -18,7 +18,7 @@ class JobSchema(BaseModel):
     title: str
     description: str
     url: str
-    type_of_work: str
+    type_of_work: str | None
     location_work: str | None
     busyness: List[str] | str | None
 

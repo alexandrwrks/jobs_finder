@@ -3,7 +3,7 @@ import asyncio
 from aiogram import Dispatcher
 
 from bot.routers import routers
-from bot_settings import bot
+from utils.bot_settings import bot
 
 
 async def main() -> None:
@@ -11,7 +11,7 @@ async def main() -> None:
 
     print("Including routers...")
 
-    dp.include_routers(routers)
+    dp.include_routers(*routers)
 
     print("Starting bot...")
 

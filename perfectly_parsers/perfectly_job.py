@@ -78,7 +78,7 @@ def get_job_information(data: dict) -> JobSchema:
         title=data["title"],
         description=data["description"],
         url=data["url"],
-        type_of_work=data["employmentType"],
+        type_of_work=data.get("employmentType"),
         location_work=data["jobLocationType"] if "jobLocationType" in data else None,
         busyness=busyness
     )
