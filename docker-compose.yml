@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+
+  postgres:
+    image: postgres:17
+
+    container_name: jobs_postgres
+
+    restart: always
+
+    environment:
+      POSTGRES_DB: jobs
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  bot:
+
+    build: .
+
+    container_name: jobs_bot
+
+    restart: always
+
+    depends_on:
+      - postgres
+
+    env_file:
+      - .env
+
+volumes:
+
+  postgres_data:
